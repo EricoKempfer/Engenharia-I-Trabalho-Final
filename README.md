@@ -8,7 +8,9 @@
 
 ## Casos de uso do sistema de reserva de passagens aéreas
 Tabelas com a descrição dos casos de uso
-
+##EXEMPLO
+![image](https://github.com/user-attachments/assets/41c6f615-98e4-44f5-8d5e-d22480685385)
+# 
 ## Caso de Uso 1 - Gerenciar Reserva de Passagem
 
 | **Elemento**           | **Descrição**                                                                                                                                                                     |
@@ -54,8 +56,6 @@ Tabelas com a descrição dos casos de uso
 | **Extensões**          | - **5a.** O pagamento é recusado: <br> &nbsp;&nbsp;&nbsp;&nbsp;- **5a1.** O sistema informa que o pagamento foi recusado e solicita a correção dos dados. <br> - **6a.** O sistema encontra um erro ao atualizar o status da reserva: <br> &nbsp;&nbsp;&nbsp;&nbsp;- **6a1.** O sistema exibe uma mensagem de erro e não efetiva a reserva. |
 | **Requisitos Especiais** | - O sistema deve criptografar informações sensíveis dos clientes. <br> - O sistema deve validar todas as informações inseridas pelo cliente. <br> - O sistema deve permitir o pagamento em até 3 parcelas. |
 
-
-![image](https://github.com/user-attachments/assets/41c6f615-98e4-44f5-8d5e-d22480685385)
 
 ## Diagrama de casos de uso
 Inserir nesta posição o diagrama de casos de uso em formato JPG.
