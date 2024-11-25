@@ -22,6 +22,18 @@ Tabelas com a descrição dos casos de uso
 | **Extensões**          | - **3a.** O cliente seleciona um voo que está cheio: <br> &nbsp;&nbsp;&nbsp;&nbsp;- **3a1.** O sistema informa que o voo está lotado e sugere voos alternativos. <br> - **4a.** O cliente insere informações inválidas: <br> &nbsp;&nbsp;&nbsp;&nbsp;- **4a1.** O sistema exibe uma mensagem de erro e solicita a correção. <br> - **6a.** O sistema encontra um erro ao gerar o código de reserva: <br> &nbsp;&nbsp;&nbsp;&nbsp;- **6a1.** O sistema exibe uma mensagem de erro e não salva a reserva. |
 | **Requisitos Especiais** | - O sistema deve criptografar informações sensíveis dos clientes. <br> - O sistema deve validar todas as informações inseridas pelo cliente. <br> - O sistema deve permitir a alteração, confirmação ou cancelamento de reservas dentro do prazo de 30 dias. |
 
+Elemento	Descrição
+Nome do Caso de Uso	Cancelar Reserva de Passagem
+Escopo	Sistema de Vendas de Passagens Aéreas
+Nível	Objetivo do usuário
+Ator Principal	Cliente (Pessoa Física ou Jurídica)
+Interessados e Interesses	- Cliente: Deseja cancelar uma reserva de passagem aérea de forma simples e rápida. <br> - Empresa de Táxi Aéreo: Quer garantir que os cancelamentos sejam processados corretamente.
+Pré-condições	- O cliente deve estar autenticado no sistema. <br> - O cliente deve possuir uma reserva ativa.
+Garantias de Sucesso	A reserva é cancelada e o cliente é informado sobre a política de reembolso.
+Cenário de Sucesso	1. O cliente acessa o sistema de vendas de passagens aéreas. <br> 2. O cliente escolhe a opção de "Cancelar Reserva". <br> 3. O cliente insere o código da reserva. <br> 4. O sistema verifica a validade da reserva. <br> 5. O cliente confirma o cancelamento. <br> 6. O sistema cancela a reserva e atualiza o status no sistema. <br> 7. O cliente é notificado sobre o cancelamento e a política de reembolso via e-mail.
+Extensões	- 4a. A reserva não é encontrada: <br> &nbsp;&nbsp;&nbsp;&nbsp;- 4a1. O sistema informa que a reserva não foi encontrada e solicita a correção. <br> - 6a. O sistema encontra um erro ao cancelar a reserva: <br> &nbsp;&nbsp;&nbsp;&nbsp;- 6a1. O sistema exibe uma mensagem de erro e não cancela a reserva.
+Requisitos Especiais	- O sistema deve criptografar informações sensíveis dos clientes. <br> - O sistema deve validar todas as informações inseridas pelo cliente. <br> - O sistema deve permitir o cancelamento de reservas dentro do prazo de 30 dias.
+
 ![image](https://github.com/user-attachments/assets/41c6f615-98e4-44f5-8d5e-d22480685385)
 
 ## Diagrama de casos de uso
