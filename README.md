@@ -58,8 +58,7 @@ Tabelas com a descrição dos casos de uso
 
 
 ## Diagrama de casos de uso
-Inserir nesta posição o diagrama de casos de uso em formato JPG.
-![image](https://github.com/user-attachments/assets/c5d06f7e-5ebf-4514-92a8-298d01401226)
+![Screenshot_1](https://github.com/user-attachments/assets/a8ff2bd0-e2a9-4c08-ad0f-1acdb6c77b81)
 
 ## Modelo de Domínio
 Inserir nesta posição o modelo de domínio em formato JPG.
