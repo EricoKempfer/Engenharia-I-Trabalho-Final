@@ -9,6 +9,8 @@
 ## Casos de uso do sistema de reserva de passagens aéreas
 Tabelas com a descrição dos casos de uso
 
+## Caso de Uso 1 - Gerenciar Reserva de Passagem
+
 | **Elemento**           | **Descrição**                                                                                                                                                                     |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Nome do Caso de Uso**| Gerenciar Reserva de Passagem                                                                                                                                                     |
@@ -22,17 +24,36 @@ Tabelas com a descrição dos casos de uso
 | **Extensões**          | - **3a.** O cliente seleciona um voo que está cheio: <br> &nbsp;&nbsp;&nbsp;&nbsp;- **3a1.** O sistema informa que o voo está lotado e sugere voos alternativos. <br> - **4a.** O cliente insere informações inválidas: <br> &nbsp;&nbsp;&nbsp;&nbsp;- **4a1.** O sistema exibe uma mensagem de erro e solicita a correção. <br> - **6a.** O sistema encontra um erro ao gerar o código de reserva: <br> &nbsp;&nbsp;&nbsp;&nbsp;- **6a1.** O sistema exibe uma mensagem de erro e não salva a reserva. |
 | **Requisitos Especiais** | - O sistema deve criptografar informações sensíveis dos clientes. <br> - O sistema deve validar todas as informações inseridas pelo cliente. <br> - O sistema deve permitir a alteração, confirmação ou cancelamento de reservas dentro do prazo de 30 dias. |
 
-Elemento	Descrição
-Nome do Caso de Uso	Cancelar Reserva de Passagem
-Escopo	Sistema de Vendas de Passagens Aéreas
-Nível	Objetivo do usuário
-Ator Principal	Cliente (Pessoa Física ou Jurídica)
-Interessados e Interesses	- Cliente: Deseja cancelar uma reserva de passagem aérea de forma simples e rápida. <br> - Empresa de Táxi Aéreo: Quer garantir que os cancelamentos sejam processados corretamente.
-Pré-condições	- O cliente deve estar autenticado no sistema. <br> - O cliente deve possuir uma reserva ativa.
-Garantias de Sucesso	A reserva é cancelada e o cliente é informado sobre a política de reembolso.
-Cenário de Sucesso	1. O cliente acessa o sistema de vendas de passagens aéreas. <br> 2. O cliente escolhe a opção de "Cancelar Reserva". <br> 3. O cliente insere o código da reserva. <br> 4. O sistema verifica a validade da reserva. <br> 5. O cliente confirma o cancelamento. <br> 6. O sistema cancela a reserva e atualiza o status no sistema. <br> 7. O cliente é notificado sobre o cancelamento e a política de reembolso via e-mail.
-Extensões	- 4a. A reserva não é encontrada: <br> &nbsp;&nbsp;&nbsp;&nbsp;- 4a1. O sistema informa que a reserva não foi encontrada e solicita a correção. <br> - 6a. O sistema encontra um erro ao cancelar a reserva: <br> &nbsp;&nbsp;&nbsp;&nbsp;- 6a1. O sistema exibe uma mensagem de erro e não cancela a reserva.
-Requisitos Especiais	- O sistema deve criptografar informações sensíveis dos clientes. <br> - O sistema deve validar todas as informações inseridas pelo cliente. <br> - O sistema deve permitir o cancelamento de reservas dentro do prazo de 30 dias.
+## Caso de Uso 2 - Cancelar Reserva de Passagem
+
+| **Elemento**           | **Descrição**                                                                                                                                                                     |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nome do Caso de Uso**| Cancelar Reserva de Passagem                                                                                                                                                      |
+| **Escopo**             | Sistema de Vendas de Passagens Aéreas                                                                                                                                             |
+| **Nível**              | Objetivo do usuário                                                                                                                                                               |
+| **Ator Principal**     | Cliente (Pessoa Física ou Jurídica)                                                                                                                                               |
+| **Interessados e Interesses** | - **Cliente:** Deseja cancelar uma reserva de passagem aérea de forma simples e rápida. <br> - **Empresa de Táxi Aéreo:** Quer garantir que os cancelamentos sejam processados corretamente. |
+| **Pré-condições**      | - O cliente deve estar autenticado no sistema. <br> - O cliente deve possuir uma reserva ativa.                                                                                     |
+| **Garantias de Sucesso** | A reserva é cancelada e o cliente é informado sobre a política de reembolso.                                                                                                      |
+| **Cenário de Sucesso** | 1. O cliente acessa o sistema de vendas de passagens aéreas. <br> 2. O cliente escolhe a opção de "Cancelar Reserva". <br> 3. O cliente insere o código da reserva. <br> 4. O sistema verifica a validade da reserva. <br> 5. O cliente confirma o cancelamento. <br> 6. O sistema cancela a reserva e atualiza o status no sistema. <br> 7. O cliente é notificado sobre o cancelamento e a política de reembolso via e-mail. |
+| **Extensões**          | - **4a.** A reserva não é encontrada: <br> &nbsp;&nbsp;&nbsp;&nbsp;- **4a1.** O sistema informa que a reserva não foi encontrada e solicita a correção. <br> - **6a.** O sistema encontra um erro ao cancelar a reserva: <br> &nbsp;&nbsp;&nbsp;&nbsp;- **6a1.** O sistema exibe uma mensagem de erro e não cancela a reserva. |
+| **Requisitos Especiais** | - O sistema deve criptografar informações sensíveis dos clientes. <br> - O sistema deve validar todas as informações inseridas pelo cliente. <br> - O sistema deve permitir o cancelamento de reservas dentro do prazo de 30 dias. |
+
+## Caso de Uso 3 - Efetuar Pagamento de Reserva
+
+| **Elemento**           | **Descrição**                                                                                                                                                                     |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nome do Caso de Uso**| Efetuar Pagamento de Reserva                                                                                                                                                      |
+| **Escopo**             | Sistema de Vendas de Passagens Aéreas                                                                                                                                             |
+| **Nível**              | Objetivo do usuário                                                                                                                                                               |
+| **Ator Principal**     | Cliente (Pessoa Física ou Jurídica)                                                                                                                                               |
+| **Interessados e Interesses** | - **Cliente:** Deseja realizar o pagamento de uma reserva de passagem aérea de forma segura e rápida. <br> - **Empresa de Táxi Aéreo:** Quer garantir que os pagamentos sejam processados corretamente. |
+| **Pré-condições**      | - O cliente deve estar autenticado no sistema. <br> - O cliente deve possuir uma reserva ativa e confirmada.                                                                                     |
+| **Garantias de Sucesso** | O pagamento é processado com sucesso e a reserva é efetivada.                                                                                                                    |
+| **Cenário de Sucesso** | 1. O cliente acessa o sistema de vendas de passagens aéreas. <br> 2. O cliente escolhe a opção de "Efetuar Pagamento". <br> 3. O cliente insere o código da reserva e escolhe o método de pagamento (cartão de crédito, pix ou boleto). <br> 4. O cliente insere os dados de pagamento. <br> 5. O sistema processa o pagamento. <br> 6. O sistema atualiza o status da reserva para efetivada. <br> 7. O cliente é notificado sobre a confirmação do pagamento via e-mail. |
+| **Extensões**          | - **5a.** O pagamento é recusado: <br> &nbsp;&nbsp;&nbsp;&nbsp;- **5a1.** O sistema informa que o pagamento foi recusado e solicita a correção dos dados. <br> - **6a.** O sistema encontra um erro ao atualizar o status da reserva: <br> &nbsp;&nbsp;&nbsp;&nbsp;- **6a1.** O sistema exibe uma mensagem de erro e não efetiva a reserva. |
+| **Requisitos Especiais** | - O sistema deve criptografar informações sensíveis dos clientes. <br> - O sistema deve validar todas as informações inseridas pelo cliente. <br> - O sistema deve permitir o pagamento em até 3 parcelas. |
+
 
 ![image](https://github.com/user-attachments/assets/41c6f615-98e4-44f5-8d5e-d22480685385)
 
