@@ -70,7 +70,7 @@ Inserir nesta posição o diagrama de atividades em formato JPG.
 ![image](https://github.com/user-attachments/assets/e18391d4-530b-4012-9952-1f0357782732)
 
 ## Diagrama de Classes de Implementação
- Inserir nesta posição o diagrama de classes de Implementação em formato JPG.
+ Inserir nesta posição o diagrama de classes de Implementação em formato JPG.          .
 ![image](https://github.com/user-attachments/assets/501e4f67-2f1e-402b-b54e-44956731630a).
 ....
 
