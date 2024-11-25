@@ -1,8 +1,10 @@
 # Engenharia de Software I (20242)
 # Nome dos integrantes do grupo:
-1) Fulano
-2) Sicrano
-3) Beltrano
+1) Érico Campos
+2) Mario Fribel
+3) Artur Zanoello
+4) Lucas Sehn
+5) Vinicius Franzzen
 
 ## Casos de uso do sistema de reserva de passagens aéreas
 Tabelas com a descrição dos casos de uso
