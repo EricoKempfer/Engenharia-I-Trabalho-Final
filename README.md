@@ -11,20 +11,20 @@ Tabelas com a descrição dos casos de uso
 ### Exemplo
 ![image](https://github.com/user-attachments/assets/41c6f615-98e4-44f5-8d5e-d22480685385)
 # 
-## Caso de Uso 1 - Gerenciar Reserva de Passagem
+## Caso de Uso 1 - Autenticar cliente
 
 | **Elemento**           | **Descrição**                                                                                                                                                                     |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nome do Caso de Uso**| Gerenciar Reserva de Passagem                                                                                                                                                     |
-| **Escopo**             | Sistema de Vendas de Passagens Aéreas                                                                                                                                             |
-| **Nível**              | Objetivo do usuário                                                                                                                                                               |
+| **Nome do Caso de Uso**| Autenticar cliente                                                                                                                                                    |
+| **Escopo**             | Sistema de reservas de passagens aéreas                                                                                                                                            |
+| **Nível**              | Sub-função                                                                                                                                                               |
 | **Ator Principal**     | Cliente (Pessoa Física ou Jurídica)                                                                                                                                               |
-| **Interessados e Interesses** | - **Cliente:** Deseja realizar uma reserva de passagem aérea de forma fácil e rápida. <br> - **Empresa de Táxi Aéreo:** Quer garantir que as reservas sejam feitas e gerenciadas eficientemente. |
-| **Pré-condições**      | - O cliente deve estar autenticado no sistema. <br> - O cliente deve possuir um cadastro válido no sistema.                                                                        |
-| **Garantias de Sucesso** | A reserva é registrada com um código único e os detalhes da viagem são armazenados corretamente no sistema.                                                                       |
-| **Cenário de Sucesso** | 1. O cliente acessa o sistema de vendas de passagens aéreas. <br> 2. O cliente escolhe a opção de "Fazer Reserva". <br> 3. O cliente seleciona o voo desejado informando origem, destino, data e horário. <br> 4. O cliente insere os dados do passageiro (identificação, nome, CPF, etc.). <br> 5. O cliente seleciona a aeronave e o assento desejado. <br> 6. O sistema gera um código de reserva e exibe uma mensagem de confirmação. <br> 7. A reserva é armazenada no sistema e o cliente é notificado via e-mail. |
-| **Extensões**          | - **3a.** O cliente seleciona um voo que está cheio: <br> &nbsp;&nbsp;&nbsp;&nbsp;- **3a1.** O sistema informa que o voo está lotado e sugere voos alternativos. <br> - **4a.** O cliente insere informações inválidas: <br> &nbsp;&nbsp;&nbsp;&nbsp;- **4a1.** O sistema exibe uma mensagem de erro e solicita a correção. <br> - **6a.** O sistema encontra um erro ao gerar o código de reserva: <br> &nbsp;&nbsp;&nbsp;&nbsp;- **6a1.** O sistema exibe uma mensagem de erro e não salva a reserva. |
-| **Requisitos Especiais** | - O sistema deve criptografar informações sensíveis dos clientes. <br> - O sistema deve validar todas as informações inseridas pelo cliente. <br> - O sistema deve permitir a alteração, confirmação ou cancelamento de reservas dentro do prazo de 30 dias. |
+| **Interessados e Interesses** | - **Sistema:** Necessita garantir que o cliente é autenticado antes de criar reservas. |
+| **Pré-condições**      | - O cliente deve ter um cadastro prévio no sistema.                                                                      |
+| **Garantias de Sucesso** | Cliente autenticado com sucesso.                                                                      |
+| **Cenário de Sucesso** | 1. O cliente insere suas credenciais (login e senha). <br> 2. O sistema verifica as credenciais. <br> 3. O cliente é autenticado e tem acesso às funções de reserva. <br>  |
+| **Extensões**          | - Caso o cliente insira credenciais incorretas, o sistema exibe mensagem de erro. <br>  - Após múltiplas tentativas incorretas, a conta pode ser temporariamente bloqueada.  |
+| **Requisitos Especiais** | - Sistema deve garantir a segurança das informações de login e senha. |
 
 ## Caso de Uso 2 - Cancelar Reserva de Passagem
 
