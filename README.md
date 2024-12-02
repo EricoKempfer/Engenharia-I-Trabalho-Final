@@ -177,21 +177,15 @@ Tabelas com a descrição dos casos de uso
 | **Requisitos Especiais**   | Apenas administradores autenticados podem gerenciar confirmações de voos.   |
 
 ## Diagrama de casos de uso
-![Screenshot_1](https://github.com/user-attachments/assets/a8ff2bd0-e2a9-4c08-ad0f-1acdb6c77b81)
+![Sistema_de_reservas_aereas_B](https://github.com/user-attachments/assets/01a0c343-5f85-4b92-9ac1-fec39132e9df)
 
 ## Modelo de Domínio
-Inserir nesta posição o modelo de domínio em formato JPG.
-![image](https://github.com/user-attachments/assets/52fb0710-b1e1-4c2d-bd71-c4e09b8535fd)
+![viagens_C](https://github.com/user-attachments/assets/5c0281e0-14cc-49af-b66a-ac05683ad9b6)
 
 ## Diagrama de Atividades
-Inserir nesta posição o diagrama de atividades em formato JPG.
-![image](https://github.com/user-attachments/assets/e18391d4-530b-4012-9952-1f0357782732)
+![viagens_D_2](https://github.com/user-attachments/assets/b4651a59-a03d-4b52-9133-4fcdaca357d5)
 
 ## Diagrama de Classes de Implementação
- Inserir nesta posição o diagrama de classes de Implementação em formato JPG---------
- 
- ![image](https://github.com/user-attachments/assets/501e4f67-2f1e-402b-b54e-44956731630a).
+![viagens_E](https://github.com/user-attachments/assets/aad13d0f-df75-4626-804e-b0400ba9deba)
 
-
-![image](https://github.com/user-attachments/assets/9041d4c8-7ec5-47c7-a285-ebd9906ca79e)
 
