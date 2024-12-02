@@ -176,7 +176,7 @@ Tabelas com a descrição dos casos de uso
 | **Requisitos Especiais**   | O sistema deve permitir apenas administradores autenticados para gerenciar aeronaves   |
 
 ## Diagrama de casos de uso
-![Sistema_de_reservas_aereas_B](https://github.com/user-attachments/assets/01a0c343-5f85-4b92-9ac1-fec39132e9df)
+![Sistema de reservas aereas B](https://github.com/user-attachments/assets/d4cb801c-98d6-4679-91e6-3a9ebc88f67c)
 
 ## Modelo de Domínio
 ![viagens_C](https://github.com/user-attachments/assets/5c0281e0-14cc-49af-b66a-ac05683ad9b6)
