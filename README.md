@@ -161,20 +161,20 @@ Tabelas com a descrição dos casos de uso
 | **Extensões**              | Caso faltem informações obrigatórias, o sistema exibe mensagens de erro.   |
 | **Requisitos Especiais**   | O sistema deve permitir apenas administradores autenticados para gerenciar aeronaves.|
 
-## Caso de Uso 11 - Gerenciar Confirmação de Voos
+## Caso de Uso 11 - Gerenciar Frota de Aeronaves
 
 | **Elemento**           | **Descrição**                                                                                                                                                                     |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nome do Caso de Uso**    | Gerenciar Confirmação de Voos                                              |
+| **Nome do Caso de Uso**    | Gerenciar Frota de Aeronaves                                            |
 | **Escopo**                 | Sistema de reservas de passagens aéreas                                     |
-| **Nível**                  | Função principal                                                            |
+| **Nível**                  | Sub-função                                                           |
 | **Ator Principal**         | Companhia aérea                                                             |
-| **Interessados e Interesses** | A companhia aérea deseja confirmar voos por motivos operacionais.              |
-| **Pré-condições**          | O voo precisa estar programado no sistema.                                 |
-| **Garantias de Sucesso**   | O voo é confirmado e os clientes são notificados.                          |
-| **Cenário de Sucesso**     | 1. O administrador acessa a opção 'Confirmar Voo'. <br> 2. Seleciona o voo que deseja confirmar. <br> 3. O sistema atualiza o status do voo para ‘Confirmado’ e notifica os clientes.|
-| **Extensões**              | Avisa os clientes que o voo foi confirmado.                               |
-| **Requisitos Especiais**   | Apenas administradores autenticados podem gerenciar confirmações de voos.   |
+| **Interessados e Interesses** | A companhia aérea deseja manter atualizados os registros de aeronaves.             |
+| **Pré-condições**          | O administrador deve estar autenticado.                                |
+| **Garantias de Sucesso**   | A frota é gerenciada corretamente.                        |
+| **Cenário de Sucesso**     | 1. O administrador acessa a opção "Gerenciar Frota". <br> 2. Insere, edita ou remove dados das aeronaves (registro, tipo, assentos). <br> 3. O sistema salva as alterações.|
+| **Extensões**              | Caso faltem informações obrigatórias, o sistema exibe mensagens de erro.                             |
+| **Requisitos Especiais**   | O sistema deve permitir apenas administradores autenticados para gerenciar aeronaves   |
 
 ## Diagrama de casos de uso
 ![Sistema_de_reservas_aereas_B](https://github.com/user-attachments/assets/01a0c343-5f85-4b92-9ac1-fec39132e9df)
