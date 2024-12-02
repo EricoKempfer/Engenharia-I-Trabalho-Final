@@ -182,7 +182,7 @@ Tabelas com a descrição dos casos de uso
 ![viagens_C](https://github.com/user-attachments/assets/5c0281e0-14cc-49af-b66a-ac05683ad9b6)
 
 ## Diagrama de Atividades
-![viagens_D_2](https://github.com/user-attachments/assets/b4651a59-a03d-4b52-9133-4fcdaca357d5)
+![viagens D](https://github.com/user-attachments/assets/a5f75582-f42b-40e0-aea9-4e9dcf94d2bd)
 
 ## Diagrama de Classes de Implementação
 ![viagens_E](https://github.com/user-attachments/assets/aad13d0f-df75-4626-804e-b0400ba9deba)
