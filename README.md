@@ -8,8 +8,7 @@
 
 ## Casos de uso do sistema de reserva de passagens aéreas
 Tabelas com a descrição dos casos de uso
-### Exemplo
-![image](https://github.com/user-attachments/assets/41c6f615-98e4-44f5-8d5e-d22480685385)
+
 # 
 ## Caso de Uso 1 - Autenticar cliente
 
